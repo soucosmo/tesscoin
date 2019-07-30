@@ -11,8 +11,8 @@
 | Maturity                 | 10 blocks                         |
 | Pre-mine                 | 13.000.000                        |
 | Block Time               | 60 secs                           |
-| P2P port                 | 2369                              |
-| RPC port                 | 2368                              |
+| P2P port                 | 4444                              |
+| RPC port                 | 4443                              |
 
 <p><strong>About Listings</strong></p>
 <pre>
