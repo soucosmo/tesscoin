@@ -1,6 +1,6 @@
-<h1>Invest Plus Specifications</h1>
+<h1>Tesscoin Specifications</h1>
 
-| Name                     | Invest Plus                       |
+| Name                     | Tesscoin                          |
 |--------------------------|-----------------------------------|
 | Ticker                   | TESS                              |
 | Supply                   | 84.000.000                        |
