@@ -5,7 +5,7 @@
 | Ticker                   | TESS                              |
 | Supply                   | 84.000.000                        |
 | Algo                     | Scrypt POW/POS                    |
-| Annual income            | 60%                               |
+| Annual income            | 30%                               |
 | Reward per block POW     | 100                               |
 | Last block POW           | 100                               |
 | Maturity                 | 10 blocks                         |
