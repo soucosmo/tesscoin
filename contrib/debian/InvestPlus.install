@@ -1,0 +1,2 @@
+debian/bin/tesscoind usr/bin
+src/tesscoind usr/lib/tesscoin
