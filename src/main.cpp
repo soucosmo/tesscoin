@@ -33,7 +33,7 @@ CCriticalSection cs_main;
 
 CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
-bool nDoGenesis = NULL;
+bool nDoGenesis = true;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
@@ -2540,7 +2540,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         const char* pszTimestamp = "tesscoin for world economy july 2019";
         CTransaction txNew;
-        txNew.nTime = 1564450012;
+        txNew.nTime = 1564495696;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2550,9 +2550,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1564450012;
+        block.nTime    = 1564495696;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 2282235 : 38832;
+        block.nNonce   = !fTestNet ? 8955 : 0;
 
         if (nDoGenesis && (block.GetHash() != hashGenesisBlock)) {
             // This will figure out a valid hash and Nonce if you're
@@ -2578,7 +2578,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nNonce = %u \n", block.nNonce);
 	fflush(NULL);
 
-        assert(block.hashMerkleRoot == uint256("0xd2346ed7806ec93332a4f6495c296eae95839a93e5a455e8318bb18f44e5ab8a"));
+        assert(block.hashMerkleRoot == uint256("0x808b0825efd131d2d5c780ef37475a544a7770678f2d3dcf65213e4a60888986"));
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
 
