@@ -1,0 +1,40 @@
+obj/txdb-leveldb.o: txdb-leveldb.cpp \
+ /root/tesscoin/src/leveldb/include/leveldb/env.h \
+ /root/tesscoin/src/leveldb/include/leveldb/status.h \
+ /root/tesscoin/src/leveldb/include/leveldb/slice.h \
+ /root/tesscoin/src/leveldb/include/leveldb/cache.h \
+ /root/tesscoin/src/leveldb/include/leveldb/filter_policy.h \
+ /root/tesscoin/src/leveldb/helpers/memenv/memenv.h kernel.h main.h \
+ bignum.h serialize.h allocators.h version.h clientversion.h uint256.h \
+ base58.h key.h util.h netbase.h compat.h script.h keystore.h crypter.h \
+ sync.h threadsafety.h net.h mruset.h protocol.h addrman.h scrypt.h \
+ zerocoin/Zerocoin.h zerocoin/../serialize.h zerocoin/../bignum.h \
+ zerocoin/../util.h zerocoin/Params.h zerocoin/Coin.h \
+ zerocoin/Commitment.h zerocoin/Accumulator.h \
+ zerocoin/AccumulatorProofOfKnowledge.h zerocoin/CoinSpend.h \
+ zerocoin/SerialNumberSignatureOfKnowledge.h zerocoin/SpendMetaData.h \
+ zerocoin/../uint256.h zerocoin/ParamGeneration.h checkpoints.h txdb.h \
+ txdb-leveldb.h /root/tesscoin/src/leveldb/include/leveldb/db.h \
+ /root/tesscoin/src/leveldb/include/leveldb/iterator.h \
+ /root/tesscoin/src/leveldb/include/leveldb/options.h \
+ /root/tesscoin/src/leveldb/include/leveldb/write_batch.h
+txdb-leveldb.cpp :
+ /root/tesscoin/src/leveldb/include/leveldb/env.h :
+ /root/tesscoin/src/leveldb/include/leveldb/status.h :
+ /root/tesscoin/src/leveldb/include/leveldb/slice.h :
+ /root/tesscoin/src/leveldb/include/leveldb/cache.h :
+ /root/tesscoin/src/leveldb/include/leveldb/filter_policy.h :
+ /root/tesscoin/src/leveldb/helpers/memenv/memenv.h kernel.h main.h :
+ bignum.h serialize.h allocators.h version.h clientversion.h uint256.h :
+ base58.h key.h util.h netbase.h compat.h script.h keystore.h crypter.h :
+ sync.h threadsafety.h net.h mruset.h protocol.h addrman.h scrypt.h :
+ zerocoin/Zerocoin.h zerocoin/../serialize.h zerocoin/../bignum.h :
+ zerocoin/../util.h zerocoin/Params.h zerocoin/Coin.h :
+ zerocoin/Commitment.h zerocoin/Accumulator.h :
+ zerocoin/AccumulatorProofOfKnowledge.h zerocoin/CoinSpend.h :
+ zerocoin/SerialNumberSignatureOfKnowledge.h zerocoin/SpendMetaData.h :
+ zerocoin/../uint256.h zerocoin/ParamGeneration.h checkpoints.h txdb.h :
+ txdb-leveldb.h /root/tesscoin/src/leveldb/include/leveldb/db.h :
+ /root/tesscoin/src/leveldb/include/leveldb/iterator.h :
+ /root/tesscoin/src/leveldb/include/leveldb/options.h :
+ /root/tesscoin/src/leveldb/include/leveldb/write_batch.h :
