@@ -63,7 +63,7 @@ static const int64_t COIN_POW_PREMINE = 13000000 * COIN; // 900M
 static const int64_t POS_START_BLOCK = 1;
 
 static const uint256 hashGenesisBlock("0x00000a466ae1e605f84d69fdddf36bb37e5ba4587e97f7f755652853ba083fa8");
-static const uint256 hashGenesisBlockTestNet("0x");
+static const uint256 hashGenesisBlockTestNet("0x0000e4090c61373960ddb1c2779b7250f99f84344ac2267935ef68b7581a01b0");
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 10 * 60; } // up to 10 minutes from the past
 inline int64_t FutureDrift(int64_t nTime) { return nTime + 10 * 60; } // up to 10 minutes from the future
